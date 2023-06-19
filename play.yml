@@ -1,0 +1,5 @@
+---
+- name: DEploy nginx to minikube
+  hosts: localhost
+  roles:
+    - myrole
